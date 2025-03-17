@@ -1,0 +1,80 @@
+Recursion:It is a programming approach where a method calls itself to solve a problem.
+It breaks down complex problems into smaller subproblems of the same type.
+
+
+test(100) -> test(90)->test(80)->test(70)
+
+test(10)=0
+
+Base condition: The condition to stop the recursion. Otherwise it will result in infinite recursion.
+Recursive calls: The function calls itself with a modified argument to bring it closer to the
+base condition.
+Stack memory usage:Every recursive call adds a frame to the call stack, and once the base case is
+reached, the stack starts unwinding. 
+
+
+Factorial of a number
+i)Iterative ii)Recursive
+
+
+f(6)
+├── f(5)
+│   ├── f(4)
+│   │   ├── f(3)
+│   │   │   ├── f(2)
+│   │        ├── f(1) = 1
+│   │        ├── f(0) = 0
+│   ├── f(3)
+│   │    ├── f(2)
+│   │    │    ├── f(1) = 1
+│   │    ├── f(1) = 1
+│   ├── f(2)
+│       ├── f(1) = 1
+│       ├── f(0) = 0
+│
+\── f(4)
+    ├── f(3)
+    │    ├── f(2)
+    │    │    ├── f(1) = 1
+    │    │    ├── f(0) = 0
+    ├── f(2)
+        ├── f(1) = 1
+        ├── f(0) = 0
+        
+        
+  Find the number of ways  to climb stairs(n steps) 
+  
+  
+  
+  Backtracking:
+  Backtracking is an algorithmic technique to solve problems recursively by exploring all
+  possible options and discarding those that leading to invalid solutions.
+  
+  Works:
+  1. Choose
+  2. Explore
+  3. In-choose(Backtrack)
+  
+  N-queens problem : You have to place N queens in a N*N chessboard in such a way that No queen attack the other queens.
+  Rat in a maze problem:
+  
+  N=4
+  
+  Rat in a maze problem:
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+

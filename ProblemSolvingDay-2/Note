@@ -1,0 +1,73 @@
+Array:
+Array is a fixed size, ordered collection of elements of the same data type.
+
+Declaration:
+
+int arr[]=new int[10];
+
+int arr[]={12,34,56,67};
+ 0   1  3  4  - indices
+[12,34,56,67]
+
+
+for, foreach
+
+arr.length
+
+st.length()
+
+int arr[][]={
+{12,45,67},
+{45,88,20},
+{7,5,6}
+};
+
+Jagged Array:A jagged array has rows of different lengths.
+
+int arr[][]=new int[3][];
+
+arr[0]=new int[2];//row 0 has 2 columns
+arr[1]=new int[3];//row 1 has 3 columns 
+arr[2]=new int[4];//row 2 has 4 columns
+
+
+Utility methods:
+Arrays.sort(arr);
+
+
+int original={3,6,7,8};
+int copy[]=original.clone();//shallow copy
+
+
+
+int original={3,6,7,8};
+int copy1[]=Arrays.copyOf(original,original.length);
+
+
+System.out.println(Arrays.toString(original));
+
+Two pointers technique:
+
+Array:
+Searching:
+i)Linear Search
+ii)Binary Search
+ a)Iterative
+ b)Recursive
+ 
+ Two arrays are compatible or not:
+ 
+ i)Same length
+ ii)Each element in one array must be greater or equal to the corresponding element of the other.
+ iii)Two arrays are permutations of each other(contains same element but possibly in different order)
+
+
+right rotation:
+[1,2,3,4,5,6,7]
+
+k=3(index)
+[5,6,7,1,2,3,4]
+
+
+
+

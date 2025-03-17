@@ -1,0 +1,93 @@
+Problem Solving: X
+Analyse: 
+ i)Goes late to bed at night.
+ ii)Transportation issue.
+ iii)Traffic rush.
+Solutions:
+ i)
+ 
+ Solution: 
+ A sequence of steps to be carried out in order to solve the problem.(Algorithm)
+ 
+ Problem X-> Multiple solutions/Algorithm - n algorithm
+ 
+ Algorithm - i) Time ii) Space
+ 
+ Arranging elements(integer) - Tokens - i)Bubble sort ii)Quick Sort
+ 
+ Time complexity:
+ Best case:Big Omega
+ Average case: Big Theta
+ Worst case:Big O
+ 
+ Algo 1:
+     1   n+1  n
+ for(i=1;i<n;i++)  //n=10 --  constant time - O(n)
+ {
+  statements; n
+ }
+ 
+      1  n   n         // O(n)
+ for(i=n;i>0;i--)
+ {
+  statements;
+ }
+ Time complexity=O(n)
+ 
+ n  n*n n*N*N
+ case 3:
+      1   n+1 n       
+ for(i=0;i<n;i++)   - n+1
+ {    1   n+1  n    
+  for(j=0;j<i;j++)  - n(n+1)
+   {
+    statements;      - n*n
+   }
+ }
+ 
+ (n+1) + n(n+1) + n*n
+ =n+1+n*n+n+n*n
+ =2n+2n*n+1
+ 
+Time complexity= O(n*n)
+
+
+case 4:
+for(i=1;i<n;i=i*2) // logn
+{
+  statements;
+}
+
+ i=1    1*2=2
+ i=2    2*2=4
+ i=4    4*2=8
+ 
+ 2k
+ 
+ 
+ i>=n
+ 
+ i=2K
+ 
+ for(i=n;i>=1;i=i/2) // logn
+{
+  statements;
+}
+
+i=n
+i=n/2
+i=n/4
+i=n/8
+
+i=n/2K
+
+for(i=0;i<n;i++) - O(n)
+for(i=0;i<n;i=i+2) - O(n/2) - O(n)
+for(i=1;i<n;i=i*2) -O(log2n)
+for(i=1;i<n;i=i*3) -O(log3n)
+for(i=1;i>1;i=i/2) - O(log2n)
+ 
+ 
+ 
+ Space complexity:
+   

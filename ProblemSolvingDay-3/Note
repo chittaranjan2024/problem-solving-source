@@ -1,0 +1,80 @@
+String:It is an object of sequence of characters and immutable in nature.
+
+i)  String st="Java programming";
+ii) String st=new String("Java Programming");
+
+
+StringBuffer & StringBuilder
+
+i)Palindrome Checking
+
+MADAM - MADAM
+
+a)Reversing Approach
+b)Two pointers approach
+
+Anagram:
+
+silent - listen
+
+s-1
+i-1
+e-1
+n-1
+t-1
+
+Longest common substrings:
+abcdef   zbcdf
+
+bcd - 3
+
+Dynamic Programming 
+
+DP table: 2D array
+
+st1=zfbcdzb
+st2=zbcdf
+
+
+//bcd
+
+String compression:
+
+aaabb - a3b2
+aabbcc - aabbcc
+abc - abc
+aaaaa- a5
+
+
+Input:racecar - e
+
+swiss - w
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

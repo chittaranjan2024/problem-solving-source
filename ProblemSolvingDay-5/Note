@@ -1,8 +1,63 @@
 Sorting:Arranging elements in a particular order, typically in ascending or descending order.
 
-i)Comparison based: e.g: bubble, Selection, Merge sort, Quick etc
+i)Comparison based: e.g: bubble, Selection, insertion, Merge sort, Quick etc
 ii)Non-comparison based:Counting, Radix, Bucket etc
 
 
 Bubble sort: 
-Select sort:
+Selection sort:
+Insertion sort:
+
+Quick Sort:
+Merge Sort:
+
+Divide and Conquer: It is a fundamental approach used in computer science and Mathematics.
+It is based on breaking down the problem into smaller sub-problems of the same type, solving
+them recursively/independently and them combine the results to get the final result.
+
+i)Divide ii)Conquer iii)Combine
+
+Merge Sort:
+ 0                6
+[38,27,43,3,9,82,10]
+
+Divide:
+
+[38,27,43,3]      [9,82,10]
+[38,27] [43,3]    [9,82] [10]
+[38][27] [43][3]  [9][82] [10]
+
+
+Conquer(Sort):
+
+[27,38][3,43]   [9,82][10]
+
+
+Merge:
+[3,27,38,43][9,10,82]
+[3,9,10,27,38,43,82]
+
+Quick sort:
+pivot: an element
+
+Partition the array
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

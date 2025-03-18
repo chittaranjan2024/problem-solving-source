@@ -13,13 +13,14 @@ public class InsertionSort {
 			int key=arr[i];//current element to be inserted
 			int j=i-1;
 			
+			//shift elements of the sorted part to the riight
 			while(j>=0 && arr[j]>key)
 			{
 				arr[j+1]=arr[j];
 				j--;
 			}
 			
-			arr[j+1]=key;			
+			arr[j+1]=key;	//insert the key in the correct position		
 		}
 	}
 	public static void main(String[] args) {
@@ -33,3 +34,5 @@ public class InsertionSort {
 	}
 
 }
+
+//O(n*n)

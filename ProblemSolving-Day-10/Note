@@ -1,0 +1,35 @@
+Graph:Graph is a collection of nodes(vertices) connected by edges.
+
+G=(V,E) where
+
+V- vertices(Nodes)
+E- Edges(Connection between Nodes) 
+
+Based on the structure graphs have six types:
+i)Directed Graph
+ii)Undirected Graph
+iii)Weighted Graph
+iv)Unweighted graph
+v)Cyclic Graph
+vi)Acyclic Graph
+
+Implementation of Graph:
+i)Adjacency Matrix
+ii)Adjacency List
+iii)Incidence Matrix
+
+
+Graph Traversing(DFS and BFS)
+Spanning Tree
+Minimum Spanning Tree
+
+Dijkstra Algorithm:
+
+i)Initialize the distance to the source node as 0 and all other nodes as infinity.
+ii)Use a priority queue to always expand the node with the shortest known distance.
+iii)For the each adjacent nodes of the currently selected node 
+  a)If a shorter path is found, update the distance.
+  b)Push the updated node into the priority queue.
+iv)Keep repeating until all nodes are visited or shortest distance to all nodes is found.    
+
+

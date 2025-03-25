@@ -1,0 +1,12 @@
+LinkedList: It is a linear data structure in which elements(nodes) are stored in 
+non-contiguous memory locations.
+
+i)Singly
+
+Node -  data, Pointer(reference)
+
+first Node-Head
+last Node-tail 
+
+ii)Doubly
+iii)Circular

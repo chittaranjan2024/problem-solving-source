@@ -1,0 +1,63 @@
+Tree:A tree is a hierarchical data structure widely used in computer science for
+organizing the data efficiently. It consists of nodes connected by edges, following
+a parent-child relationship.
+
+i)topmost node is called root node
+ii)Each node has children except the leaf nodes
+iii)Each child has a single parent except the root
+iv)A node without children is called leaf.
+v)Tree doesn't contain cycle
+
+Depth: Number of edges from the root to the node.
+height:Number of edges from a node to the deepest leaf.
+
+Types:
+i)Binary Tree: Each node has at most two children
+ii)Binary Search tree(BST): A Binary Search tree is a binary tree where the left child is
+smaller and right child is greater than the root.
+iii)Balanced tree: Trees like AVL or Red-Black tree maintains the balance to optimize operations.
+iv)Heap: A complete binary tree used in priority queue.
+
+Types of operations:
+i)Traversing
+ a) Preorder(Root,Left,Right) b) Postorder(Left,Right,Root) c)Inorder(Left, Root, Right)
+  Level order
+ii)Inserting
+iii)Deleting
+iv)Updating
+v)Searching
+vi)Find Min and Max
+vii)Height of a tree
+vii)Count number of nodes
+
+Binary Search Tree:A binary search tree(BST) is a binary tree where each node follows the rule:
+i)Left subtree contains values less than the node's value.
+ii)Right subtree contains values greater than the node's value.
+iii)No duplicates are allowed in BST.
+
+
+
+
+
+Delete:
+i)If leaf node then no changes are required.
+ii)If node with single child then replace the node with its child.
+iii)If node with two child then find inorder successor(Smallest node in the right subtree) or
+inorder predecessor(largest node in the left subtree) and replace the node with that value.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
